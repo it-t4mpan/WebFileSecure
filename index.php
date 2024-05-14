@@ -203,6 +203,23 @@ if (isset($_GET["action"]) && isset($_GET["name"])) {
             echo '<p style="color: red;">File or directory not found.</p>';
             logActivity('Attempted to delete non-existing file or directory: ' . $sanitizedName);
         }
+    } elseif ($action == "download" && !is_dir($path)) {
+        // Handle file download
+        if (file_exists($path)) {
+            header('Content-Description: File Transfer');
+            header('Content-Type: application/octet-stream');
+            header('Content-Disposition: attachment; filename="'.basename($path).'"');
+            header('Expires: 0');
+            header('Cache-Control: must-revalidate');
+            header('Pragma: public');
+            header('Content-Length: ' . filesize($path));
+            readfile($path);
+            logActivity('File downloaded: ' . $sanitizedName);
+            exit;
+        } else {
+            echo '<p style="color: red;">File not found.</p>';
+            logActivity('Attempted to download non-existing file: ' . $sanitizedName);
+        }
     }
 }
 
@@ -313,6 +330,9 @@ foreach ($files as $file) {
         echo '<td>' . htmlspecialchars($file) . '</td>';
         echo '<td>';
         echo '<a href="?action=delete&name=' . $encodedName . '">Delete</a>';
+        if (!is_dir($directory . $file)) {
+            echo ' | <a href="?action=download&name=' . $encodedName . '">Download</a>';
+        }
         if (is_dir($directory . $file)) {
             echo ' | <a href="?ls=true&directory=' . $encodedName . '">List Directory</a>';
         }
