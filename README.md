@@ -48,3 +48,10 @@ Folder wfs
 -----------------
 - // Directory where files are stored (change as per your setup)
 $directory = './wfs/';
+
+-----------------
+File yang diizinkan Untuk di upload
+-----------------
+// Function to check if file extension is allowed
+function isAllowedExtension($fileName) {
+    $allowedExtensions = array('png', 'jpg', 'jpeg', 'gif', 'pdf', 'txt');
