@@ -36,6 +36,14 @@ Keamanan
 - Parameter URL divalidasi dan disanitasi.
 
 -----------------
-Petunjuk 
+Default Username Pass 
 -----------------
 
+- $valid_username = "1718";
+- $valid_password = "Kud4";
+
+-----------------
+Folder wfs
+-----------------
+- // Directory where files are stored (change as per your setup)
+$directory = './wfs/';
