@@ -15,6 +15,7 @@ Pengelolaan File:
 
 - Unggah File: Pengguna dapat mengunggah file ke server, dengan pengecekan untuk ekstensi file yang diizinkan (png, jpg, jpeg, gif, pdf, txt).
 - Menghapus File/Folder: Pengguna dapat menghapus file atau folder. Untuk folder, penghapusan dilakukan secara rekursif.
+- Mendownload File dan Folder
 
 Logging Aktivitas:
 
