@@ -61,5 +61,11 @@ function isAllowedExtension($fileName) {
 DISCLAIMER
 --------------
 - Script ini digunakan, hanya untuk pembelajaran.
-- Saya tidak bertanggung jawab, atas Segala kejahatan atau insiden siber yang dilakukan atau dialami dengan memanfaatkan script ini.
 - Script ini Tidak diizinkan digunakan sebagai Webshell.
+- Author skrip ini tidak bertanggung jawab atas kerugian, insiden, atau kerusakan yang timbul dari penggunaan atau ketidakmampuan untuk menggunakan skrip ini.
+- Pengguna setuju untuk membebaskan penulis dari segala tuntutan, biaya, kerusakan, dan tanggung jawab yang timbul dari penggunaan skrip ini.
+- Skrip ini dapat digunakan untuk mengelola file dan direktori yang mungkin berisi data sensitif. Pengguna harus memastikan bahwa data tersebut dilindungi dengan tindakan keamanan yang memadai.
+- Pengguna harus mematuhi semua peraturan dan undang-undang yang berlaku terkait perlindungan data dan privasi.
+- Pengguna bertanggung jawab penuh atas pengaturan dan pengelolaan server serta lingkungan di mana skrip ini digunakan.
+- Pengguna harus memastikan bahwa skrip ini tidak digunakan untuk tujuan yang melanggar hukum atau sebagai alat untuk melakukan kejahatan siber.
+- Pengguna harus memahami bahwa setiap skrip yang diakses secara publik melalui internet memiliki potensi risiko keamanan. Pengguna harus melakukan penilaian dan pengujian keamanan tambahan sebelum menggunakan skrip ini di lingkungan produksi.
