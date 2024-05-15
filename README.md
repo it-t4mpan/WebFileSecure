@@ -69,3 +69,4 @@ DISCLAIMER
 - Pengguna bertanggung jawab penuh atas pengaturan dan pengelolaan server serta lingkungan di mana skrip ini digunakan.
 - Pengguna harus memastikan bahwa skrip ini tidak digunakan untuk tujuan yang melanggar hukum atau sebagai alat untuk melakukan kejahatan siber.
 - Pengguna harus memahami bahwa setiap skrip yang diakses secara publik melalui internet memiliki potensi risiko keamanan. Pengguna harus melakukan penilaian dan pengujian keamanan tambahan sebelum menggunakan skrip ini di lingkungan produksi.
+- Dengan menggunakan skrip ini, pengguna setuju untuk mematuhi ketentuan-ketentuan di atas dan untuk menggunakan skrip ini secara etis dan bertanggung jawab.
