@@ -4,7 +4,7 @@ Fitur
 Login dan Logout:
 
 - Login: Pengguna harus login menggunakan kredensial yang valid (admin/password).
-- Logout: Pengguna dapat logout untuk mengakhiri sesi mereka.
+- Logout: Pengguna dapat logout untuk mengakhiri sesi.
 
 Pengelolaan Direktori:
 
