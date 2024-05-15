@@ -55,3 +55,11 @@ File yang diizinkan Untuk di upload
 // Function to check if file extension is allowed
 function isAllowedExtension($fileName) {
     $allowedExtensions = array('png', 'jpg', 'jpeg', 'gif', 'pdf', 'txt');
+
+
+--------------
+DISCLAIMER
+--------------
+- Script ini digunakan, hanya untuk pembelajaran.
+- Saya tidak bertanggung jawab, atas Segala kejahatan atau insiden siber yang dilakukan atau dialami dengan memanfaatkan script ini.
+- Script ini Tidak diizinkan digunakan sebagai Webshell.
