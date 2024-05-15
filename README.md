@@ -3,7 +3,7 @@ Skrip ini berfungsi sebagai manajer file sederhana berbasis web, yang menyediaka
 Fitur
 Login dan Logout:
 
-- Login: Pengguna harus login menggunakan kredensial yang valid (admin/password).
+- Login: Pengguna harus login menggunakan kredensial yang valid (1718/Kud4).
 - Logout: Pengguna dapat logout untuk mengakhiri sesi.
 
 Pengelolaan Direktori:
