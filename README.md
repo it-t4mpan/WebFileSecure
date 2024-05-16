@@ -1,3 +1,5 @@
+https://github.com/it-t4mpan/WebFileSecure/blob/main/wfs/_48eacb4d-33a7-42bb-8b87-4cceea24d5f4.jpeg
+
 Skrip ini berfungsi sebagai manajer file sederhana berbasis web, yang menyediakan antarmuka untuk mengunggah, mengunduh, membuat direktori, dan menghapus file atau direktori di server. Skrip ini juga mencakup fitur login untuk keamanan dan Sudah dilakukan Scanning Virustotal : https://www.virustotal.com/gui/file/396e4af7c7abcb1556423a8d2926d55af9ac95404766f6844c4d574486eb03af/summary
 
 Fitur
